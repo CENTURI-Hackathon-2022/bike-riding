@@ -28,6 +28,8 @@ setup(
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10'
     ],
-    install_requires=['pandas', 'ffmpeg', 'imageio[ffmpeg]', 'matplotlib',
-                      'numpy', 'scikit-learn', 'ipython', 'jupyter'],
+    py_modules = [],
+    install_requires=['pandas', 'ffmpeg', 'imageio',
+                      'matplotlib', 'numpy', 'scikit-learn',
+                      'imageio-ffmpeg', 'ipython', 'jupyter'],
 )
