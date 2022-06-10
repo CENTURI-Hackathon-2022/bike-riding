@@ -46,49 +46,23 @@ pip install .
 Here is the list of dependencies that will be installed:
 - [numpy] : basic library for array manipulation
 - [matplotlib] : basic library to plot figures
-- [scipy] : one of the basic libraries for statistic
 - [scikit-learn] : one of the basic libraries for data analysis
 - [ipython] : interactive python terminal
 - [jupyter] : python notebook
 - [napari] : 3D image visualizer
+- [pandas] : data array management
+- [imageio] : reading movies
 
 # Road Map
 
 # Problems that this software is trying to solve
-Understanding better Placozoans wound healing
+Mice are learning to walk on a rotor, can we detect the learning phase?
 
 # Objectives
-The objectives are likely in order of difficulty but they can be done in any.
-
-It is not expected, whatsoever, for all the objectives to be completed.
-
-- Detecting and tracking the placozoan throughout the whole movie #2
-- Quantitatively characterising the shape of the placozoan over time #3
-- Detecting and tracking the wound throughout the whole movie #4
-- Quantitatively characterising the shape of the wound over time #5
-- Building a napari plugin for the detection and tracking #6
-- Computing and quantifying the cell flows within the placozoan #7
-- Putting in relation placozoan and wound shape with cell flows #8
-
-You can find the roadmap for the project as an issue [there](https://github.com/CENTURI-Hackathon-2022/placozoan-visualisation/issues/1).
-
-You should try to follow the objectives but the order is not important (though
-some milestones are dependent on others).
+__TODO__
 
 ## Objective dependencies
-&rarr; #2
-
-&rarr; #4
-
-#2 &rarr; #3
-
-#4 &rarr; #5
-
-#2 | #4 &rarr; #6
-
-&rarr; #7
-
-(#3 | #4) & #7 &rarr; #8
+__TODO__
 
 Legend:
 - #x &rarr; #y: #x needs to be completed before #y can be started
@@ -110,10 +84,12 @@ Legend:
 [ipython]: https://ipython.org
 [jupyter]: https://jupyter.org
 [napari]: https://napari.org
+[pandas]: https://pandas.pydata.org
+[imageio]: https://imageio.readthedocs.io/en/stable/
 
-strategies motrices apprises, optimisation
+<!-- strategies motrices apprises, optimisation
 
 Coordonnee des targets au cours du temps pour 4/5 souris
 Reeatribuer les cibles aux bonnes souris
 
-Plusieurs comportements pour rester sur la roue
+Plusieurs comportements pour rester sur la roue -->
