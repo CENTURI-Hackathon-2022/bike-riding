@@ -86,10 +86,15 @@ To reach the final goal, multiple sub-tasks can be identified:
 
 ## Objective dependencies
 &rarr; #2
+
 #2 &rarr; #3
+
 #2 &rarr; #4
+
 #2 &rarr; #5
+
 (#5 & #4) &rarr; #6
+
 #6 &rarr; #7
 
 Legend:
