@@ -56,13 +56,41 @@ Here is the list of dependencies that will be installed:
 # Road Map
 
 # Problems that this software is trying to solve
-Mice are learning to walk on a rotor, can we detect the learning phase?
+Mice are learning to walk on a rotor. Using bodypart positions over time,
+can we quantify their learning?
+
+We have two types of data, manually cleaned datasets and raw datasets
 
 # Objectives
-__TODO__
+The dataset consists in movies of mice walking on a rotor.
+Each movie contains up to five mice that are independent from each other.
+
+The objective of the project would be to classify each mouse time series in three
+categories:
+- Discovery phase (might be assimilated to the learning phase)
+- Learning phase
+- "Learnt" phase (when the mouse has a stable behavior)
+
+Moreover, it would be interesting to be able to compare mice against each other
+and to classify different learning approaches. Two examples of learning approches:
+- "waiting and jumping"
+- "rapid limb movements"
+
+To reach the final goal, multiple sub-tasks can be identified:
+- Organizing the dataset #2
+- Extracting simple statistics on the mouse runs (how long it stayed, has it learn, ...)#3
+- Quantifying and clustering single mouse behavior over time #4
+- Comparing multiple mice behaviors #5
+- Classifying the different mouse behaviors according to the type of learning #6
+- Is there a premptive behavior predicting the final learnt behavior? #7
 
 ## Objective dependencies
-__TODO__
+&rarr; #2
+#2 &rarr; #3
+#2 &rarr; #4
+#2 &rarr; #5
+(#5 & #4) &rarr; #6
+#6 &rarr; #7
 
 Legend:
 - #x &rarr; #y: #x needs to be completed before #y can be started
@@ -73,7 +101,6 @@ Legend:
 [mamba]: https://mamba.readthedocs.io/en/latest/
 [pipenv]: https://pipenv.pypa.io/en/latest/
 [miniconda]: https://docs.conda.io/en/latest/miniconda.html
-[placozoa]: https://en.wikipedia.org/wiki/Placozo
 [pip]: https://pypi.org/project/pip
 [numpy]: https://numpy.org
 [scipy]: https://scipy.org
