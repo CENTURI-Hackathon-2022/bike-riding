@@ -74,7 +74,7 @@ categories:
 Moreover, it would be interesting to be able to compare mice against each other
 and to classify different learning approaches. Two examples of learning approaches:
 - "waiting and jumping"
-- "rapid limb movements"
+- "rapid limb movements= stepping"
 
 To reach the final goal, multiple sub-tasks can be identified:
 - Organizing the dataset #2
