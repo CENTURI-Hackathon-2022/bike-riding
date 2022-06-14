@@ -56,7 +56,7 @@ Here is the list of dependencies that will be installed:
 # Road Map
 
 # Problems that this software is trying to solve
-Mice are learning to walk on a rotor. Using bodypart positions over time,
+Mice are learning to walk on a rotor. Using body part positions over time,
 can we quantify their learning?
 
 We have two types of data, manually cleaned datasets and raw datasets
@@ -72,17 +72,17 @@ categories:
 - "Learnt" phase (when the mouse has a stable behavior)
 
 Moreover, it would be interesting to be able to compare mice against each other
-and to classify different learning approaches. Two examples of learning approches:
+and to classify different learning approaches. Two examples of learning approaches:
 - "waiting and jumping"
 - "rapid limb movements"
 
 To reach the final goal, multiple sub-tasks can be identified:
 - Organizing the dataset #2
-- Extracting simple statistics on the mouse runs (how long it stayed, has it learn, ...)#3
+- Extracting simple statistics on the mouse runs (how long it stayed, has it learned, ...)#3
 - Quantifying and clustering single mouse behavior over time #4
 - Comparing multiple mice behaviors #5
 - Classifying the different mouse behaviors according to the type of learning #6
-- Is there a premptive behavior predicting the final learnt behavior? #7
+- Is there a preemptive behavior predicting the final learnt behavior? #7
 
 ## Objective dependencies
 &rarr; #2
@@ -113,10 +113,3 @@ Legend:
 [napari]: https://napari.org
 [pandas]: https://pandas.pydata.org
 [imageio]: https://imageio.readthedocs.io/en/stable/
-
-<!-- strategies motrices apprises, optimisation
-
-Coordonnee des targets au cours du temps pour 4/5 souris
-Reeatribuer les cibles aux bonnes souris
-
-Plusieurs comportements pour rester sur la roue -->
