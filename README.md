@@ -1,6 +1,6 @@
 # It's like riding a bike
 
-This project is about mice learning to stay on a rotor
+This project is about mice learning to stay on an accelerating rotor
 
 # Getting started
 
@@ -56,13 +56,13 @@ Here is the list of dependencies that will be installed:
 # Road Map
 
 # Problems that this software is trying to solve
-Mice are learning to walk on a rotor. Using body part positions over time,
+Mice are learning to walk on an accelarating rotor. Using body part positions over time,
 can we quantify their learning?
 
 We have two types of data, manually cleaned datasets and raw datasets
 
 # Objectives
-The dataset consists in movies of mice walking on a rotor.
+The dataset consists in movies of mice walking on a rotor with extracted X and Y trajectories over time of different bodyparts of the mice (ears, tail, limbs, etc).
 Each movie contains up to five mice that are independent from each other.
 
 The objective of the project would be to classify each mouse time series in three
@@ -74,7 +74,7 @@ categories:
 Moreover, it would be interesting to be able to compare mice against each other
 and to classify different learning approaches. Two examples of learning approaches:
 - "waiting and jumping"
-- "rapid limb movements= stepping"
+- "rapid limb movements = stepping"
 
 To reach the final goal, multiple sub-tasks can be identified:
 - Organizing the dataset #2
